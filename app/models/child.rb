@@ -17,4 +17,11 @@ class Child < ApplicationRecord
         [first_name, last_name].join(' ')
     end
 
+    def points_earned
+        tot = 0 
+        chores.each { |chore|
+            tot += chore.task.points if chore.completed
+        } 
+        tot
+    end
 end
