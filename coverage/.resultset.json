@@ -25,7 +25,7 @@
           null
         ]
       },
-      "/Users/wenchaohu/Documents/GitHub/272-lab4-choretracker-starter/app/models/child.rb": {
+      "/Users/wenchaohu/Documents/GitHub/272-lab4-choretracker-starter/app/models/task.rb": {
         "lines": [
           1,
           null,
@@ -34,17 +34,10 @@
           null,
           null,
           1,
-          1,
           null,
           null,
+          3,
           2,
-          3,
-          null,
-          null,
-          1,
-          null,
-          3,
-          null,
           null,
           null
         ]
@@ -64,12 +57,27 @@
           null
         ]
       },
-      "/Users/wenchaohu/Documents/GitHub/272-lab4-choretracker-starter/app/models/task.rb": {
+      "/Users/wenchaohu/Documents/GitHub/272-lab4-choretracker-starter/app/models/child.rb": {
         "lines": [
           1,
           null,
           1,
           1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
           null
         ]
       },
@@ -356,6 +364,6 @@
         }
       }
     },
-    "timestamp": 1707266030
+    "timestamp": 1707266419
   }
 }
