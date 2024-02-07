@@ -9,7 +9,7 @@ class Child < ApplicationRecord
 
     # Scope
     scope :active, -> { where(active: true) } 
-    scope :alphabetical, -> { order(first_name: :asc) }
+    scope :alphabetical, -> { order(last_name: :asc, first_name: :asc) }
 
     # name methods that list first_ and last_names combined
     def name
